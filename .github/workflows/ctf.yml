@@ -1,0 +1,54 @@
+name: CTF
+
+on:
+  issues:
+    types: [opened]
+
+permissions:
+  contents: write
+  issues: write
+
+jobs:
+  check:
+    if: contains(github.event.issue.labels.*.name, 'ctf') || startsWith(github.event.issue.title, 'ctf:')
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+      - uses: actions/setup-node@v5
+        with:
+          node-version: 24
+          cache: npm
+          cache-dependency-path: tools/package-lock.json
+      - run: npm ci
+        working-directory: tools
+      # Issue text is attacker-controlled: it only ever reaches ctf.mjs as
+      # environment variables, never as part of a shell command.
+      - name: Check submission and commit
+        env:
+          ISSUE_TITLE: ${{ github.event.issue.title }}
+          ISSUE_BODY: ${{ github.event.issue.body }}
+          PLAYER: ${{ github.event.issue.user.login }}
+          CTF_FLAGS: ${{ secrets.CTF_FLAGS }}
+          REPLY_DIR: ${{ runner.temp }}
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          # Retry on a race with another submission: start again from the latest main.
+          for attempt in 1 2 3 4 5; do
+            git fetch origin main --quiet
+            git reset --hard origin/main --quiet
+            node tools/ctf.mjs
+            git add -A README.md assets ctf
+            if git diff --cached --quiet; then exit 0; fi
+            git commit --quiet -m "ctf: capture by @$PLAYER"
+            if git push origin HEAD:main --quiet; then exit 0; fi
+            sleep $((attempt * 3))
+          done
+          exit 1
+      - name: Reply and close
+        env:
+          GH_TOKEN: ${{ github.token }}
+          ISSUE_NUMBER: ${{ github.event.issue.number }}
+        run: |
+          gh issue comment "$ISSUE_NUMBER" --repo "$GITHUB_REPOSITORY" --body-file "$RUNNER_TEMP/reply.md"
+          gh issue close "$ISSUE_NUMBER" --repo "$GITHUB_REPOSITORY" --reason "$(cat "$RUNNER_TEMP/reason.txt")"

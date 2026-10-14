@@ -1,0 +1,18 @@
+name: CTF submission
+description: Submit hashed flags for CASE 031. Never paste a plaintext flag.
+title: "ctf: submission"
+labels: ["ctf"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Hash each flag with your GitHub username first: `printf '%s' 'flag{...}:your-username' | shasum -a 256`
+        The [briefing](https://github.com/MuhammadMurtuzaHussain/MuhammadMurtuzaHussain/tree/main/ctf) has Linux and Windows versions.
+  - type: textarea
+    id: hashes
+    attributes:
+      label: Flag hashes
+      description: One or more 64-character sha256 hashes.
+      placeholder: 3f9c...e21a
+    validations:
+      required: true

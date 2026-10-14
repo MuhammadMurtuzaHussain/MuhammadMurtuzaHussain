@@ -1,0 +1,47 @@
+name: Update profile
+
+on:
+  schedule:
+    - cron: "17 5 * * *"
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - "tools/profile.json"
+      - "tools/build.mjs"
+      - "tools/update.mjs"
+
+permissions:
+  contents: write
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+      - uses: actions/setup-node@v5
+        with:
+          node-version: 24
+          cache: npm
+          cache-dependency-path: tools/package-lock.json
+      - run: npm ci
+        working-directory: tools
+      - name: Refresh data, rebuild and commit
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          CTF_FLAGS: ${{ secrets.CTF_FLAGS }}
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          # Retry on a race with a CTF commit: start again from the latest main.
+          for attempt in 1 2 3 4 5; do
+            git fetch origin main --quiet
+            git reset --hard origin/main --quiet
+            node tools/update.mjs
+            git add -A README.md assets tools/data.json
+            if git diff --cached --quiet; then echo "No changes"; exit 0; fi
+            git commit --quiet -m "chore: refresh profile data"
+            if git push origin HEAD:main --quiet; then exit 0; fi
+            sleep $((attempt * 5))
+          done
+          exit 1

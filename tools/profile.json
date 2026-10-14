@@ -1,0 +1,193 @@
+{
+  "user": "MuhammadMurtuzaHussain",
+  "manualKpis": [
+    {
+      "value": "8",
+      "label": "hackathon & CTF podiums"
+    },
+    {
+      "value": "6",
+      "label": "years managing risk"
+    }
+  ],
+  "frameworks": "iso/iec 27001 · nis2 · nist csf · mitre att&ck · gdpr · iso 22398",
+  "ticker": [
+    [
+      "RISK-014",
+      "engagement dip  L3 x I4  owner: WP lead  treat: reduce"
+    ],
+    [
+      "ISO/IEC 27001:2022 A.5.19",
+      "supplier relationships  SoA: applicable"
+    ],
+    [
+      "NIS2 Art. 21(2)(d)",
+      "supply chain security  evidence: vendor register"
+    ],
+    [
+      "T1110.001",
+      "password guessing  rule 100201  level 10  wazuh"
+    ],
+    [
+      "CVE-2023-34362",
+      "MOVEit Transfer SQLi  Cl0p  2,700+ orgs"
+    ],
+    [
+      "S3-001",
+      "public access block  CIS 2.1.4  severity: high"
+    ],
+    [
+      "TLS 1.0 accepted",
+      "RFC 8996  grade: FAIL"
+    ],
+    [
+      "BSides Belfast",
+      "Hacker House CTF  2nd place"
+    ],
+    [
+      "RPO 4h RTO 24h",
+      "BC/DR scenario  tabletop: STORMSURGE"
+    ],
+    [
+      "ROPA DPIA",
+      "GDPR Art. 30 / 35"
+    ]
+  ],
+  "fan": [
+    {
+      "case": "CASE 009",
+      "title": "BSides Belfast",
+      "meta": "hacker house ctf",
+      "stamp": "2ND PLACE"
+    },
+    {
+      "case": "CASE 021",
+      "title": "Droichead",
+      "meta": "hack for humanity",
+      "stamp": "BEST OSS AI"
+    },
+    {
+      "case": "CASE 027",
+      "title": "Agent Breaker",
+      "meta": "lakera · 2026",
+      "stamp": "1ST PLACE",
+      "secret": [
+        "prompt-injection ctf",
+        "ten challenges broken",
+        "field notes published"
+      ]
+    }
+  ],
+  "cases": [
+    {
+      "slug": "droichead",
+      "repo": "Droichead",
+      "no": "01",
+      "lang": "javascript",
+      "stamp": "BEST OSS AI",
+      "title": "Droichead",
+      "desc": "A calm, private career navigator for people whose work is being reshaped by AI.",
+      "tags": "hack for humanity dublin · 2026"
+    },
+    {
+      "slug": "agent-breaker",
+      "repo": "agent-breaker",
+      "no": "02",
+      "lang": "playbook",
+      "stamp": "1ST PLACE",
+      "title": "agent-breaker",
+      "desc": "A red-team playbook for breaking LLM agents: tool-calling, RAG, MCP and memory-backed.",
+      "tags": "prompt injection · ai security"
+    },
+    {
+      "slug": "nis2",
+      "repo": "nis2-compliance-mapper",
+      "no": "03",
+      "lang": "javascript",
+      "stamp": "OPEN",
+      "title": "nis2-compliance-mapper",
+      "desc": "Maps every NIS2 obligation to the person who owns it and the evidence that proves it is met.",
+      "tags": "directive (eu) 2022/2555 · grc"
+    },
+    {
+      "slug": "wazuh",
+      "repo": "wazuh-home-soc-lab",
+      "no": "04",
+      "lang": "shell",
+      "stamp": "OPEN",
+      "title": "wazuh-home-soc-lab",
+      "desc": "A reproducible home SOC: single-node Wazuh, a disposable target and three MITRE-mapped detections.",
+      "tags": "wazuh · elk · mitre att&ck"
+    }
+  ],
+  "posts": {
+    "count": 4,
+    "devUser": "muhammadmurtuzahussain",
+    "mediumUser": "muhammadmurtuzahussain",
+    "minDevMinutes": 3,
+    "minMediumWords": 600,
+    "includeTags": [
+      "security",
+      "cybersecurity",
+      "ctf",
+      "hackathon",
+      "hackathons",
+      "ai",
+      "pentesting",
+      "red-team",
+      "prompt-injection-attack",
+      "devchallenge",
+      "opensource",
+      "open-source",
+      "gemma",
+      "hacktoberfest",
+      "mlhacks",
+      "bsides",
+      "isc2",
+      "isaca",
+      "programming",
+      "webdev",
+      "python",
+      "grc",
+      "iso27001",
+      "nis2"
+    ],
+    "excludeTags": [
+      "breakups",
+      "mental-health",
+      "depression",
+      "healing",
+      "rejection",
+      "thoughts",
+      "gods-plan",
+      "isolation",
+      "cyber-bullying",
+      "moveon"
+    ],
+    "exclude": []
+  },
+  "ctf": {
+    "challenges": [
+      {
+        "id": "01",
+        "name": "declassify",
+        "points": 100
+      },
+      {
+        "id": "02",
+        "name": "brute force",
+        "points": 150
+      },
+      {
+        "id": "03",
+        "name": "git never forgets",
+        "points": 200
+      },
+      {
+        "id": "04",
+        "name": "signed, not sealed",
+        "points": 250
+      }
+    ]
+  }
+}

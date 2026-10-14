@@ -1,0 +1,7 @@
+{
+  "name": "mmh-readme-assets",
+  "private": true,
+  "type": "module",
+  "scripts": { "build": "node build.mjs" },
+  "dependencies": { "opentype.js": "1.3.4" }
+}

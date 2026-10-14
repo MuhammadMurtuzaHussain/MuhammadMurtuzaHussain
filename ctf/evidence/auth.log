@@ -1,0 +1,208 @@
+Oct 12 01:59:18 galway-bastion sshd[4103]: Failed password for invalid user pi from 203.0.113.9 port 42677 ssh2
+Oct 12 02:00:44 galway-bastion sshd[4106]: Invalid user pi from 198.51.100.141 port 34753
+Oct 12 02:02:11 galway-bastion sshd[4111]: Failed password for invalid user pi from 198.51.100.141 port 41706 ssh2
+Oct 12 02:02:39 galway-bastion sshd[4118]: Connection closed by 198.51.100.141 port 58934 [preauth]
+Oct 12 02:03:14 galway-bastion sshd[4124]: Failed password for invalid user admin from 198.51.100.141 port 30632 ssh2
+Oct 12 02:04:19 galway-bastion sshd[4125]: Failed password for invalid user git from 203.0.113.9 port 31967 ssh2
+Oct 12 02:05:03 galway-bastion sshd[4131]: Connection closed by 203.0.113.9 port 47468 [preauth]
+Oct 12 02:06:09 galway-bastion sshd[4132]: Invalid user test from 198.51.100.88 port 42589
+Oct 12 02:07:20 galway-bastion sshd[4139]: Failed password for invalid user test from 198.51.100.88 port 44734 ssh2
+Oct 12 02:08:28 galway-bastion sshd[4143]: Invalid user admin from 198.51.100.141 port 38416
+Oct 12 02:09:42 galway-bastion sshd[4152]: Failed password for invalid user admin from 198.51.100.141 port 46714 ssh2
+Oct 12 02:11:01 galway-bastion sshd[4160]: Connection closed by 198.51.100.141 port 40847 [preauth]
+Oct 12 02:12:19 galway-bastion sshd[4165]: Failed password for invalid user git from 198.51.100.141 port 34108 ssh2
+Oct 12 02:13:48 galway-bastion sshd[4173]: Connection closed by 198.51.100.141 port 31636 [preauth]
+Oct 12 02:14:10 galway-bastion sshd[4176]: Failed password for invalid user oracle from 198.51.100.88 port 50076 ssh2
+Oct 12 02:15:26 galway-bastion sshd[4183]: Invalid user root from 203.0.113.9 port 59007
+Oct 12 02:16:10 galway-bastion sshd[4192]: Failed password for root from 203.0.113.9 port 36568 ssh2
+Oct 12 02:16:35 galway-bastion sshd[4196]: Invalid user git from 198.51.100.88 port 40710
+Oct 12 02:16:52 galway-bastion sshd[4197]: Failed password for invalid user git from 198.51.100.88 port 56724 ssh2
+Oct 12 02:17:32 galway-bastion sshd[4201]: Invalid user postgres from 198.51.100.23 port 57033
+Oct 12 02:18:55 galway-bastion sshd[4202]: Failed password for invalid user postgres from 198.51.100.23 port 45103 ssh2
+Oct 12 02:20:01 galway-bastion sshd[4203]: Invalid user admin from 192.0.2.201 port 40818
+Oct 12 02:20:06 galway-bastion sshd[4207]: Failed password for invalid user admin from 192.0.2.201 port 48034 ssh2
+Oct 12 02:21:13 galway-bastion sshd[4212]: Invalid user admin from 198.51.100.141 port 56816
+Oct 12 02:21:44 galway-bastion sshd[4216]: Failed password for invalid user admin from 198.51.100.141 port 47540 ssh2
+Oct 12 02:22:35 galway-bastion sshd[4223]: Invalid user postgres from 203.0.113.9 port 52884
+Oct 12 02:23:39 galway-bastion sshd[4229]: Failed password for invalid user postgres from 203.0.113.9 port 57111 ssh2
+Oct 12 02:24:47 galway-bastion sshd[4234]: Accepted publickey for mmh from 192.0.2.10 port 59513 ssh2: ED25519 SHA256:bbRrZ+pJdUc5J8ZOabRoK1AfqUhYF5aOMTuK+m63C48
+Oct 12 02:25:52 galway-bastion sshd[4242]: pam_unix(sshd:session): session opened for user mmh(uid=1000) by (uid=0)
+Oct 12 02:26:48 galway-bastion sshd[4244]: Failed password for invalid user ubuntu from 198.51.100.88 port 30553 ssh2
+Oct 12 02:26:56 galway-bastion sshd[4247]: Failed password for invalid user postgres from 198.51.100.141 port 36720 ssh2
+Oct 12 02:27:54 galway-bastion sshd[4251]: Connection closed by 198.51.100.141 port 44757 [preauth]
+Oct 12 02:29:02 galway-bastion sshd[4259]: Invalid user root from 198.51.100.141 port 32434
+Oct 12 02:30:19 galway-bastion sshd[4261]: Failed password for root from 198.51.100.141 port 51981 ssh2
+Oct 12 02:31:44 galway-bastion sshd[4263]: Failed password for invalid user admin from 203.0.113.9 port 49222 ssh2
+Oct 12 02:33:10 galway-bastion sshd[4265]: Failed password for invalid user ubuntu from 198.51.100.88 port 54725 ssh2
+Oct 12 02:33:28 galway-bastion sshd[4271]: Invalid user ubuntu from 192.0.2.201 port 55292
+Oct 12 02:34:05 galway-bastion sshd[4278]: Failed password for invalid user ubuntu from 192.0.2.201 port 48699 ssh2
+Oct 12 02:35:08 galway-bastion sshd[4279]: Failed password for invalid user oracle from 198.51.100.23 port 46990 ssh2
+Oct 12 02:36:20 galway-bastion sshd[4282]: Invalid user root from 198.51.100.88 port 45936
+Oct 12 02:37:11 galway-bastion sshd[4289]: Failed password for root from 198.51.100.88 port 30872 ssh2
+Oct 12 02:37:13 galway-bastion sshd[4292]: Invalid user oracle from 198.51.100.23 port 32033
+Oct 12 02:37:15 galway-bastion sshd[4301]: Failed password for invalid user oracle from 198.51.100.23 port 52045 ssh2
+Oct 12 02:37:20 galway-bastion sshd[4304]: Invalid user pi from 203.0.113.9 port 32406
+Oct 12 02:37:24 galway-bastion sshd[4309]: Failed password for invalid user pi from 203.0.113.9 port 30731 ssh2
+Oct 12 02:37:25 galway-bastion sshd[4312]: Failed password for invalid user support from 198.51.100.200 port 50587 ssh2
+Oct 12 02:37:26 galway-bastion sshd[4315]: Failed password for invalid user admin from 198.51.100.200 port 31641 ssh2
+Oct 12 02:37:30 galway-bastion sshd[4322]: Failed password for invalid user admin from 198.51.100.200 port 34171 ssh2
+Oct 12 02:37:33 galway-bastion sshd[4323]: Failed password for invalid user admin from 198.51.100.200 port 38399 ssh2
+Oct 12 02:37:36 galway-bastion sshd[4325]: Failed password for invalid user admin from 198.51.100.200 port 43122 ssh2
+Oct 12 02:37:38 galway-bastion sshd[4328]: Failed password for invalid user backup from 198.51.100.200 port 30025 ssh2
+Oct 12 02:37:42 galway-bastion sshd[4331]: Failed password for invalid user support from 198.51.100.200 port 42219 ssh2
+Oct 12 02:37:45 galway-bastion sshd[4333]: Failed password for invalid user support from 198.51.100.200 port 32517 ssh2
+Oct 12 02:37:50 galway-bastion sshd[4337]: Failed password for invalid user backup from 198.51.100.200 port 49043 ssh2
+Oct 12 02:37:52 galway-bastion sshd[4342]: Failed password for invalid user support from 198.51.100.200 port 38037 ssh2
+Oct 12 02:37:54 galway-bastion sshd[4346]: Failed password for invalid user backup from 198.51.100.200 port 32583 ssh2
+Oct 12 02:37:56 galway-bastion sshd[4348]: Failed password for invalid user support from 198.51.100.200 port 41137 ssh2
+Oct 12 02:37:59 galway-bastion sshd[4355]: Failed password for invalid user backup from 198.51.100.200 port 36549 ssh2
+Oct 12 02:38:03 galway-bastion sshd[4358]: Failed password for invalid user backup from 198.51.100.200 port 59111 ssh2
+Oct 12 02:38:05 galway-bastion sshd[4359]: Failed password for invalid user backup from 198.51.100.200 port 34893 ssh2
+Oct 12 02:38:06 galway-bastion sshd[4361]: Failed password for invalid user backup from 198.51.100.200 port 57142 ssh2
+Oct 12 02:38:09 galway-bastion sshd[4369]: Failed password for invalid user admin from 198.51.100.200 port 36096 ssh2
+Oct 12 02:38:12 galway-bastion sshd[4378]: Failed password for invalid user admin from 198.51.100.200 port 58240 ssh2
+Oct 12 02:38:16 galway-bastion sshd[4386]: Failed password for invalid user admin from 198.51.100.200 port 55415 ssh2
+Oct 12 02:38:20 galway-bastion sshd[4392]: Failed password for invalid user admin from 198.51.100.200 port 47029 ssh2
+Oct 12 02:38:23 galway-bastion sshd[4395]: Failed password for invalid user admin from 198.51.100.200 port 58705 ssh2
+Oct 12 02:38:28 galway-bastion sshd[4400]: Failed password for invalid user support from 198.51.100.200 port 33149 ssh2
+Oct 12 02:38:32 galway-bastion sshd[4405]: Failed password for invalid user backup from 198.51.100.200 port 53380 ssh2
+Oct 12 02:38:36 galway-bastion sshd[4406]: Failed password for invalid user backup from 198.51.100.200 port 30112 ssh2
+Oct 12 02:38:39 galway-bastion sshd[4413]: Failed password for invalid user support from 198.51.100.200 port 39063 ssh2
+Oct 12 02:38:43 galway-bastion sshd[4416]: Failed password for invalid user backup from 198.51.100.200 port 38891 ssh2
+Oct 12 02:38:44 galway-bastion sshd[4422]: Disconnecting authenticating user admin 198.51.100.200 port 51122: Too many authentication failures [preauth]
+Oct 12 02:38:46 galway-bastion sshd[4426]: Failed password for root from 203.0.113.77 port 51070 ssh2
+Oct 12 02:38:49 galway-bastion sshd[4432]: Failed password for invalid user backup from 203.0.113.77 port 59800 ssh2
+Oct 12 02:38:54 galway-bastion sshd[4437]: Invalid user git from 192.0.2.201 port 32592
+Oct 12 02:38:58 galway-bastion sshd[4438]: Failed password for invalid user git from 192.0.2.201 port 54342 ssh2
+Oct 12 02:39:00 galway-bastion sshd[4440]: Failed password for invalid user admin from 203.0.113.77 port 32402 ssh2
+Oct 12 02:39:04 galway-bastion sshd[4445]: Failed password for svc_backup from 203.0.113.77 port 43509 ssh2
+Oct 12 02:39:07 galway-bastion sshd[4452]: Failed password for root from 203.0.113.77 port 36659 ssh2
+Oct 12 02:39:10 galway-bastion sshd[4453]: Failed password for invalid user backup_svc from 203.0.113.77 port 35606 ssh2
+Oct 12 02:39:11 galway-bastion sshd[4460]: Failed password for invalid user backup_svc from 203.0.113.77 port 41059 ssh2
+Oct 12 02:39:14 galway-bastion sshd[4461]: Failed password for root from 203.0.113.77 port 34424 ssh2
+Oct 12 02:39:17 galway-bastion sshd[4465]: Failed password for invalid user admin from 203.0.113.77 port 39737 ssh2
+Oct 12 02:39:20 galway-bastion sshd[4473]: Failed password for root from 203.0.113.77 port 44712 ssh2
+Oct 12 02:39:22 galway-bastion sshd[4475]: Failed password for root from 203.0.113.77 port 30210 ssh2
+Oct 12 02:39:24 galway-bastion sshd[4482]: Failed password for root from 203.0.113.77 port 54873 ssh2
+Oct 12 02:39:27 galway-bastion sshd[4483]: Failed password for invalid user backup_svc from 203.0.113.77 port 30051 ssh2
+Oct 12 02:39:28 galway-bastion sshd[4488]: Failed password for invalid user pi from 203.0.113.9 port 44212 ssh2
+Oct 12 02:39:30 galway-bastion sshd[4495]: Failed password for svc_backup from 203.0.113.77 port 43489 ssh2
+Oct 12 02:39:32 galway-bastion sshd[4503]: Failed password for invalid user backup_svc from 203.0.113.77 port 48987 ssh2
+Oct 12 02:39:34 galway-bastion sshd[4511]: Failed password for invalid user git from 198.51.100.141 port 52914 ssh2
+Oct 12 02:39:36 galway-bastion sshd[4514]: Failed password for invalid user backup from 203.0.113.77 port 58867 ssh2
+Oct 12 02:39:40 galway-bastion sshd[4522]: Failed password for root from 203.0.113.77 port 36800 ssh2
+Oct 12 02:39:45 galway-bastion sshd[4525]: Failed password for invalid user admin from 203.0.113.77 port 31163 ssh2
+Oct 12 02:39:46 galway-bastion sshd[4530]: Failed password for invalid user svc-backup from 203.0.113.77 port 56890 ssh2
+Oct 12 02:39:47 galway-bastion sshd[4535]: Failed password for invalid user admin from 203.0.113.77 port 31511 ssh2
+Oct 12 02:39:49 galway-bastion sshd[4543]: Failed password for invalid user backup_svc from 203.0.113.77 port 58165 ssh2
+Oct 12 02:39:51 galway-bastion sshd[4552]: Failed password for invalid user backup_svc from 203.0.113.77 port 38729 ssh2
+Oct 12 02:39:54 galway-bastion sshd[4553]: Failed password for invalid user postgres from 203.0.113.9 port 52170 ssh2
+Oct 12 02:39:59 galway-bastion sshd[4562]: Failed password for invalid user admin from 203.0.113.77 port 32643 ssh2
+Oct 12 02:40:02 galway-bastion sshd[4568]: Failed password for invalid user svc-backup from 203.0.113.77 port 41238 ssh2
+Oct 12 02:40:06 galway-bastion sshd[4572]: Failed password for invalid user git from 203.0.113.9 port 33728 ssh2
+Oct 12 02:40:09 galway-bastion sshd[4576]: Connection closed by 203.0.113.9 port 57529 [preauth]
+Oct 12 02:40:12 galway-bastion sshd[4585]: Failed password for svc_backup from 203.0.113.77 port 36539 ssh2
+Oct 12 02:40:14 galway-bastion sshd[4589]: Failed password for invalid user backup from 203.0.113.77 port 52211 ssh2
+Oct 12 02:40:19 galway-bastion sshd[4597]: Failed password for root from 203.0.113.77 port 46539 ssh2
+Oct 12 02:40:23 galway-bastion sshd[4603]: Failed password for invalid user admin from 203.0.113.77 port 31264 ssh2
+Oct 12 02:40:27 galway-bastion sshd[4607]: Failed password for invalid user admin from 203.0.113.77 port 41468 ssh2
+Oct 12 02:40:31 galway-bastion sshd[4612]: Failed password for svc_backup from 203.0.113.77 port 40355 ssh2
+Oct 12 02:40:35 galway-bastion sshd[4617]: Failed password for invalid user svc-backup from 203.0.113.77 port 50139 ssh2
+Oct 12 02:40:38 galway-bastion sshd[4622]: Failed password for root from 203.0.113.77 port 59199 ssh2
+Oct 12 02:40:40 galway-bastion sshd[4631]: Failed password for invalid user backup from 203.0.113.77 port 53751 ssh2
+Oct 12 02:40:41 galway-bastion sshd[4638]: Failed password for svc_backup from 203.0.113.77 port 49315 ssh2
+Oct 12 02:40:42 galway-bastion sshd[4642]: Invalid user root from 198.51.100.88 port 58847
+Oct 12 02:40:44 galway-bastion sshd[4645]: Failed password for root from 198.51.100.88 port 53875 ssh2
+Oct 12 02:40:45 galway-bastion sshd[4648]: Connection closed by 198.51.100.88 port 55200 [preauth]
+Oct 12 02:40:48 galway-bastion sshd[4657]: Failed password for invalid user backup from 203.0.113.77 port 33156 ssh2
+Oct 12 02:40:51 galway-bastion sshd[4661]: Failed password for invalid user backup_svc from 203.0.113.77 port 34868 ssh2
+Oct 12 02:40:55 galway-bastion sshd[4668]: Failed password for invalid user admin from 203.0.113.77 port 34339 ssh2
+Oct 12 02:40:58 galway-bastion sshd[4670]: Failed password for invalid user backup from 203.0.113.77 port 49660 ssh2
+Oct 12 02:41:02 galway-bastion sshd[4676]: Failed password for invalid user admin from 203.0.113.77 port 30646 ssh2
+Oct 12 02:41:05 galway-bastion sshd[4685]: Failed password for svc_backup from 203.0.113.77 port 37358 ssh2
+Oct 12 02:41:08 galway-bastion sshd[4686]: Failed password for root from 203.0.113.77 port 39799 ssh2
+Oct 12 02:41:10 galway-bastion sshd[4690]: Failed password for invalid user admin from 203.0.113.77 port 41313 ssh2
+Oct 12 02:41:14 galway-bastion sshd[4695]: Failed password for invalid user backup_svc from 203.0.113.77 port 30532 ssh2
+Oct 12 02:41:19 galway-bastion sshd[4696]: Failed password for root from 203.0.113.77 port 56259 ssh2
+Oct 12 02:41:21 galway-bastion sshd[4703]: Invalid user root from 198.51.100.23 port 57148
+Oct 12 02:41:24 galway-bastion sshd[4708]: Failed password for root from 198.51.100.23 port 48150 ssh2
+Oct 12 02:41:28 galway-bastion sshd[4709]: Connection closed by 198.51.100.23 port 56474 [preauth]
+Oct 12 02:41:32 galway-bastion sshd[4717]: Failed password for invalid user backup from 203.0.113.77 port 41498 ssh2
+Oct 12 02:41:34 galway-bastion sshd[4726]: Failed password for invalid user pi from 198.51.100.141 port 42684 ssh2
+Oct 12 02:41:35 galway-bastion sshd[4731]: Failed password for invalid user backup from 203.0.113.77 port 44009 ssh2
+Oct 12 02:41:38 galway-bastion sshd[4740]: Failed password for invalid user admin from 203.0.113.77 port 40887 ssh2
+Oct 12 02:41:40 galway-bastion sshd[4748]: Invalid user pi from 198.51.100.88 port 50442
+Oct 12 02:41:42 galway-bastion sshd[4755]: Failed password for invalid user pi from 198.51.100.88 port 59893 ssh2
+Oct 12 02:41:45 galway-bastion sshd[4756]: Failed password for invalid user backup from 203.0.113.77 port 35997 ssh2
+Oct 12 02:41:50 galway-bastion sshd[4758]: Failed password for invalid user backup_svc from 203.0.113.77 port 51135 ssh2
+Oct 12 02:41:52 galway-bastion sshd[4764]: Failed password for invalid user admin from 203.0.113.77 port 54043 ssh2
+Oct 12 02:41:57 galway-bastion sshd[4765]: Failed password for invalid user test from 198.51.100.23 port 53657 ssh2
+Oct 12 02:42:01 galway-bastion sshd[4772]: Connection closed by 198.51.100.23 port 31104 [preauth]
+Oct 12 02:42:04 galway-bastion sshd[4778]: Failed password for svc_backup from 203.0.113.77 port 44290 ssh2
+Oct 12 02:42:08 galway-bastion sshd[4783]: Failed password for root from 203.0.113.9 port 36234 ssh2
+Oct 12 02:42:11 galway-bastion sshd[4786]: Failed password for svc_backup from 203.0.113.77 port 57355 ssh2
+Oct 12 02:42:14 galway-bastion sshd[4795]: Failed password for svc_backup from 203.0.113.77 port 58294 ssh2
+Oct 12 02:42:18 galway-bastion sshd[4801]: Failed password for svc_backup from 203.0.113.77 port 37164 ssh2
+Oct 12 02:42:21 galway-bastion sshd[4805]: Failed password for svc_backup from 203.0.113.77 port 42861 ssh2
+Oct 12 02:42:22 galway-bastion sshd[4813]: Failed password for svc_backup from 203.0.113.77 port 53133 ssh2
+Oct 12 02:42:24 galway-bastion sshd[4820]: Failed password for svc_backup from 203.0.113.77 port 43762 ssh2
+Oct 12 02:42:28 galway-bastion sshd[4828]: Failed password for svc_backup from 203.0.113.77 port 41270 ssh2
+Oct 12 02:42:30 galway-bastion sshd[4829]: Invalid user oracle from 198.51.100.141 port 57955
+Oct 12 02:42:34 galway-bastion sshd[4832]: Failed password for invalid user oracle from 198.51.100.141 port 47384 ssh2
+Oct 12 02:42:35 galway-bastion sshd[4833]: Failed password for svc_backup from 203.0.113.77 port 53212 ssh2
+Oct 12 02:42:39 galway-bastion sshd[4838]: Failed password for svc_backup from 203.0.113.77 port 51397 ssh2
+Oct 12 02:42:41 galway-bastion sshd[4843]: Invalid user git from 192.0.2.201 port 53853
+Oct 12 02:42:43 galway-bastion sshd[4848]: Failed password for invalid user git from 192.0.2.201 port 58491 ssh2
+Oct 12 02:42:48 galway-bastion sshd[4856]: Connection closed by 192.0.2.201 port 39056 [preauth]
+Oct 12 02:42:50 galway-bastion sshd[4857]: Failed password for svc_backup from 203.0.113.77 port 38512 ssh2
+Oct 12 02:42:53 galway-bastion sshd[4862]: Invalid user admin from 192.0.2.201 port 54320
+Oct 12 02:42:56 galway-bastion sshd[4866]: Failed password for invalid user admin from 192.0.2.201 port 43570 ssh2
+Oct 12 02:43:00 galway-bastion sshd[4872]: Connection closed by 192.0.2.201 port 57645 [preauth]
+Oct 12 02:43:04 galway-bastion sshd[4880]: Failed password for svc_backup from 203.0.113.77 port 48632 ssh2
+Oct 12 02:43:08 galway-bastion sshd[4886]: Failed password for svc_backup from 203.0.113.77 port 53369 ssh2
+Oct 12 02:43:11 galway-bastion sshd[4895]: Invalid user oracle from 203.0.113.9 port 45774
+Oct 12 02:43:14 galway-bastion sshd[4901]: Failed password for invalid user oracle from 203.0.113.9 port 42408 ssh2
+Oct 12 02:43:16 galway-bastion sshd[4906]: Failed password for svc_backup from 203.0.113.77 port 33716 ssh2
+Oct 12 02:43:20 galway-bastion sshd[4915]: Accepted password for svc_backup from 203.0.113.77 port 40112 ssh2
+Oct 12 02:43:22 galway-bastion sshd[4924]: pam_unix(sshd:session): session opened for user svc_backup(uid=1003) by (uid=0)
+Oct 12 02:43:24 galway-bastion sshd[4926]: Failed password for invalid user admin from 198.51.100.88 port 46780 ssh2
+Oct 12 02:43:26 galway-bastion sshd[4932]: Connection closed by 198.51.100.88 port 34428 [preauth]
+Oct 12 02:43:29 galway-bastion sshd[4936]: Failed password for invalid user ubuntu from 198.51.100.23 port 34365 ssh2
+Oct 12 02:43:32 galway-bastion sshd[4940]: Connection closed by 198.51.100.23 port 50526 [preauth]
+Oct 12 02:43:34 galway-bastion sshd[4942]: Failed password for invalid user oracle from 198.51.100.23 port 48998 ssh2
+Oct 12 02:43:38 galway-bastion sshd[4945]: Connection closed by 198.51.100.23 port 55226 [preauth]
+Oct 12 02:43:41 galway-bastion sshd[4954]: Failed password for invalid user ubuntu from 192.0.2.201 port 51034 ssh2
+Oct 12 02:43:44 galway-bastion sshd[4963]: Connection closed by 192.0.2.201 port 52085 [preauth]
+Oct 12 02:43:47 galway-bastion sshd[4967]: Failed password for invalid user admin from 203.0.113.9 port 58227 ssh2
+Oct 12 02:43:49 galway-bastion sshd[4973]: Invalid user root from 192.0.2.201 port 38496
+Oct 12 02:43:51 galway-bastion sshd[4982]: Failed password for root from 192.0.2.201 port 45204 ssh2
+Oct 12 02:43:54 galway-bastion sshd[4983]: Connection closed by 192.0.2.201 port 45113 [preauth]
+Oct 12 02:43:57 galway-bastion sshd[4992]: Invalid user postgres from 203.0.113.9 port 30488
+Oct 12 02:43:59 galway-bastion sshd[4998]: Failed password for invalid user postgres from 203.0.113.9 port 33945 ssh2
+Oct 12 02:44:03 galway-bastion sshd[5001]: Invalid user test from 198.51.100.141 port 36801
+Oct 12 02:44:07 galway-bastion sshd[5004]: Failed password for invalid user test from 198.51.100.141 port 38629 ssh2
+Oct 12 02:44:11 galway-bastion sshd[5010]: Accepted publickey for deploy from 192.0.2.44 port 58731 ssh2: ED25519 SHA256:a7X0uSKSmD5nW8l93gP4iXi3ATtr9lHdS15lJUIF/TQ
+Oct 12 02:44:15 galway-bastion sshd[5019]: pam_unix(sshd:session): session opened for user deploy(uid=1002) by (uid=0)
+Oct 12 02:44:16 galway-bastion sshd[5021]: Invalid user git from 198.51.100.88 port 54307
+Oct 12 02:44:20 galway-bastion sshd[5029]: Failed password for invalid user git from 198.51.100.88 port 46056 ssh2
+Oct 12 02:44:23 galway-bastion sshd[5036]: Connection closed by 198.51.100.88 port 42366 [preauth]
+Oct 12 02:44:24 galway-bastion sshd[5038]: Failed password for invalid user test from 198.51.100.141 port 43943 ssh2
+Oct 12 02:44:26 galway-bastion sshd[5044]: Failed password for invalid user oracle from 198.51.100.141 port 50936 ssh2
+Oct 12 02:44:34 galway-bastion sshd[5052]: Connection closed by 198.51.100.141 port 44775 [preauth]
+Oct 12 02:45:04 galway-bastion sshd[5055]: Invalid user ubuntu from 198.51.100.141 port 49081
+Oct 12 02:45:35 galway-bastion sshd[5064]: Failed password for invalid user ubuntu from 198.51.100.141 port 53874 ssh2
+Oct 12 02:46:16 galway-bastion sshd[5070]: Invalid user pi from 198.51.100.141 port 34877
+Oct 12 02:47:39 galway-bastion sshd[5074]: Failed password for invalid user pi from 198.51.100.141 port 30754 ssh2
+Oct 12 02:48:24 galway-bastion sshd[5078]: Invalid user oracle from 198.51.100.23 port 35844
+Oct 12 02:48:58 galway-bastion sshd[5083]: Failed password for invalid user oracle from 198.51.100.23 port 56768 ssh2
+Oct 12 02:49:16 galway-bastion sshd[5091]: Invalid user root from 198.51.100.141 port 50898
+Oct 12 02:50:04 galway-bastion sshd[5094]: Failed password for root from 198.51.100.141 port 37802 ssh2
+Oct 12 02:50:17 galway-bastion sshd[5095]: Invalid user git from 203.0.113.9 port 41271
+Oct 12 02:51:19 galway-bastion sshd[5097]: Failed password for invalid user git from 203.0.113.9 port 58429 ssh2
+Oct 12 02:51:35 galway-bastion sshd[5103]: Connection closed by 203.0.113.9 port 36384 [preauth]
+Oct 12 02:52:43 galway-bastion sshd[5112]: Failed password for invalid user ubuntu from 198.51.100.23 port 54653 ssh2
+Oct 12 02:53:49 galway-bastion sshd[5120]: Invalid user git from 203.0.113.9 port 55861
+Oct 12 02:53:52 galway-bastion sshd[5122]: Failed password for invalid user git from 203.0.113.9 port 32492 ssh2
+Oct 12 02:53:59 galway-bastion sshd[5124]: Invalid user postgres from 198.51.100.88 port 41177
+Oct 12 02:55:12 galway-bastion sshd[5129]: Failed password for invalid user postgres from 198.51.100.88 port 47025 ssh2
+Oct 12 02:56:19 galway-bastion sshd[5131]: Failed password for root from 192.0.2.201 port 57504 ssh2

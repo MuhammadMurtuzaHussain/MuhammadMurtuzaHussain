@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Asset Scrubber</title>
+<style>
+  body { margin: 0; padding: 24px; background: #0d1117; color: #7d8590; font: 12px ui-monospace, monospace; }
+  .grid { display: grid; gap: 12px; max-width: 880px; }
+  .row { display: flex; gap: 12px; flex-wrap: wrap; align-items: flex-start; }
+  iframe { border: 0; display: block; background: transparent; }
+</style>
+</head>
+<body>
+<p>Scrub: <input id="t" type="range" min="0" max="10000" value="7000" step="50"> <span id="v"></span></p>
+<div class="grid" id="g"></div>
+<script>
+  // Dev aid: renders each asset in its own document and seeks every CSS
+  // animation to one time, so frames can be checked when the pane is hidden.
+  const groups = [
+    ['hero.svg'],
+    ['link-site.svg', 'link-linkedin.svg', 'link-dev.svg', 'link-medium.svg', 'link-youtube.svg', 'link-call.svg', 'link-all.svg'],
+    ['h-risk.svg'], ['risk-profile.svg'], ['h-cases.svg'],
+    ['case-droichead.svg', 'case-agent-breaker.svg'], ['case-nis2.svg', 'case-wazuh.svg'],
+    ['h-notes.svg'], ['note-1.svg'], ['note-2.svg'], ['note-3.svg'], ['note-4.svg'],
+    ['h-ctf.svg'], ['ctf.svg'],
+    ['key-brief.svg', 'key-hints.svg', 'key-submit.svg', 'key-board.svg'],
+    ['footer.svg'],
+  ];
+  const only = new URLSearchParams(location.search).get('only');
+  const frames = [];
+  const g = document.getElementById('g');
+  for (const names of groups) {
+    const row = document.createElement('div');
+    row.className = 'row';
+    for (const n of names) {
+      if (only && !n.includes(only)) continue;
+      const f = document.createElement('iframe');
+      f.src = '../assets/' + n;
+      f.onload = () => {
+        const svg = f.contentDocument.documentElement;
+        f.width = svg.getAttribute('width');
+        f.height = svg.getAttribute('height');
+        seek();
+      };
+      frames.push(f);
+      row.appendChild(f);
+    }
+    if (row.children.length) g.appendChild(row);
+  }
+  const t = document.getElementById('t');
+  function seek() {
+    document.getElementById('v').textContent = t.value + 'ms';
+    for (const f of frames) {
+      const doc = f.contentDocument;
+      if (!doc) continue;
+      doc.getAnimations().forEach((a) => { a.pause(); a.currentTime = +t.value; });
+    }
+  }
+  t.oninput = seek;
+  window.seekTo = (ms) => { t.value = ms; seek(); };
+</script>
+</body>
+</html>
