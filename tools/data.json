@@ -1,8 +1,8 @@
 {
-  "updated": "18 Oct 2026",
+  "updated": "19 Oct 2026",
   "year": 2026,
   "repos": 35,
-  "contributions": 312,
+  "contributions": 332,
   "languages": [
     {
       "name": "JavaScript",
@@ -26,7 +26,6 @@
     }
   ],
   "daily": [
-    2,
     3,
     0,
     0,
@@ -57,9 +56,16 @@
     18,
     39,
     70,
+    20,
     0
   ],
   "posts": [
+    {
+      "source": "DEV",
+      "title": "Job hunting became my side hustle, so I built Deis (Gemma 4) Tinder for jobs: swipe right, Gemma tailors your CV",
+      "url": "https://dev.to/muhammadmurtuzahussain/job-hunting-became-my-side-hustle-so-i-built-deis-gemma-4-tinder-for-jobs-swipe-right-gemma-3jcm",
+      "date": "2026-10-18T20:56:01Z"
+    },
     {
       "source": "DEV",
       "title": "\"Is AI going to replace me?\" I built Droichead on Gemma 4 in one day, then pitched it with a flip chart",
@@ -77,12 +83,6 @@
       "title": "Breaking the Agent: Field Notes from Ten Prompt-Injection Challenges",
       "url": "https://medium.com/@muhammadmurtuzahussain/breaking-the-agent-field-notes-from-ten-prompt-injection-challenges-f924b10e8135",
       "date": "2026-10-06T11:55:36.000Z"
-    },
-    {
-      "source": "Medium",
-      "title": "I Never Studied Code. I Still Won the Technical Track.",
-      "url": "https://medium.com/@muhammadmurtuzahussain/i-never-studied-code-i-still-won-the-technical-track-aa0bb7613493",
-      "date": "2026-10-04T14:27:49.000Z"
     }
   ]
 }
