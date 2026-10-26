@@ -1,19 +1,19 @@
 {
-  "updated": "25 Oct 2026",
+  "updated": "26 Oct 2026",
   "year": 2026,
-  "repos": 39,
-  "contributions": 363,
+  "repos": 40,
+  "contributions": 372,
   "languages": [
     {
       "name": "TypeScript",
       "count": 10
     },
     {
-      "name": "JavaScript",
-      "count": 9
+      "name": "Python",
+      "count": 10
     },
     {
-      "name": "Python",
+      "name": "JavaScript",
       "count": 9
     },
     {
@@ -26,7 +26,6 @@
     }
   ],
   "daily": [
-    0,
     0,
     2,
     4,
@@ -57,9 +56,16 @@
     2,
     8,
     0,
-    0
+    3,
+    6
   ],
   "posts": [
+    {
+      "source": "DEV",
+      "title": "I sleep 4 hours a night because of email, so I built a sloth that reads it for me (Gemma 4 on an Arduino UNO Q)",
+      "url": "https://dev.to/muhammadmurtuzahussain/i-sleep-4-hours-a-night-because-of-email-so-i-built-a-sloth-that-reads-it-for-me-gemma-4-on-an-1aa1",
+      "date": "2026-10-26T01:45:57Z"
+    },
     {
       "source": "DEV",
       "title": "Job hunting became my side hustle, so I built Deis (Gemma 4) Tinder for jobs: swipe right, Gemma tailors your CV",
@@ -77,12 +83,6 @@
       "title": "I walked an hour for 30 cents: Gemma plans litter walks that end at a deposit machine",
       "url": "https://dev.to/muhammadmurtuzahussain/i-walked-an-hour-for-30-cents-gemma-plans-litter-walks-that-end-at-a-deposit-machine-4ih9",
       "date": "2026-10-11T23:13:59Z"
-    },
-    {
-      "source": "Medium",
-      "title": "Breaking the Agent: Field Notes from Ten Prompt-Injection Challenges",
-      "url": "https://medium.com/@muhammadmurtuzahussain/breaking-the-agent-field-notes-from-ten-prompt-injection-challenges-f924b10e8135",
-      "date": "2026-10-06T11:55:36.000Z"
     }
   ]
 }
