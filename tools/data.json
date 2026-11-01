@@ -1,8 +1,8 @@
 {
-  "updated": "31 Oct 2026",
+  "updated": "01 Nov 2026",
   "year": 2026,
   "repos": 45,
-  "contributions": 449,
+  "contributions": 566,
   "languages": [
     {
       "name": "TypeScript",
@@ -26,7 +26,6 @@
     }
   ],
   "daily": [
-    3,
     4,
     23,
     18,
@@ -57,9 +56,16 @@
     15,
     29,
     14,
-    0
+    99,
+    18
   ],
   "posts": [
+    {
+      "source": "DEV",
+      "title": "Not every ghost is here to scare you. Ward is the friendly one in your group chat",
+      "url": "https://dev.to/muhammadmurtuzahussain/not-every-ghost-is-here-to-scare-you-ward-is-the-friendly-one-in-your-group-chat-25g",
+      "date": "2026-11-01T05:31:36Z"
+    },
     {
       "source": "DEV",
       "title": "I sleep 4 hours a night because of email, so I built a sloth that reads it for me (Gemma 4 on an Arduino UNO Q)",
@@ -77,12 +83,6 @@
       "title": "\"Is AI going to replace me?\" I built Droichead on Gemma 4 in one day, then pitched it with a flip chart",
       "url": "https://dev.to/muhammadmurtuzahussain/is-ai-going-to-replace-me-i-built-droichead-on-gemma-4-in-one-day-then-pitched-it-with-a-flip-4k6p",
       "date": "2026-10-12T08:18:38Z"
-    },
-    {
-      "source": "DEV",
-      "title": "I walked an hour for 30 cents: Gemma plans litter walks that end at a deposit machine",
-      "url": "https://dev.to/muhammadmurtuzahussain/i-walked-an-hour-for-30-cents-gemma-plans-litter-walks-that-end-at-a-deposit-machine-4ih9",
-      "date": "2026-10-11T23:13:59Z"
     }
   ]
 }
