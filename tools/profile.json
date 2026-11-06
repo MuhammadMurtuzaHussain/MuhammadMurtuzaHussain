@@ -80,9 +80,19 @@
   ],
   "cases": [
     {
+      "slug": "deis",
+      "repo": "deis",
+      "no": "01",
+      "lang": "javascript",
+      "stamp": "BEST OVERALL",
+      "title": "Deis",
+      "desc": "Swipe-to-apply job app for early-career people in Ireland. Gemma tailors your CV from what you told it.",
+      "tags": "dev hacktoberfest week 2 · 2026"
+    },
+    {
       "slug": "droichead",
       "repo": "Droichead",
-      "no": "01",
+      "no": "02",
       "lang": "javascript",
       "stamp": "BEST OSS AI",
       "title": "Droichead",
@@ -92,32 +102,42 @@
     {
       "slug": "agent-breaker",
       "repo": "agent-breaker",
-      "no": "02",
+      "no": "03",
       "lang": "playbook",
       "stamp": "1ST PLACE",
       "title": "agent-breaker",
       "desc": "A red-team playbook for breaking LLM agents: tool-calling, RAG, MCP and memory-backed.",
-      "tags": "prompt injection · ai security"
+      "tags": "lakera agent breaker · 2026"
     },
     {
-      "slug": "nis2",
-      "repo": "nis2-compliance-mapper",
-      "no": "03",
-      "lang": "javascript",
-      "stamp": "OPEN",
-      "title": "nis2-compliance-mapper",
-      "desc": "Maps every NIS2 obligation to the person who owns it and the evidence that proves it is met.",
-      "tags": "directive (eu) 2022/2555 · grc"
-    },
-    {
-      "slug": "wazuh",
-      "repo": "wazuh-home-soc-lab",
+      "slug": "morning-sloth",
+      "repo": "morning-sloth",
       "no": "04",
-      "lang": "shell",
+      "lang": "python",
+      "stamp": "BEST USE OF ARDUINO",
+      "title": "morning-sloth",
+      "desc": "Gemma 4 on an Arduino UNO Q sorts your Gmail overnight and shows one face on the LED matrix.",
+      "tags": "dev hacktoberfest week 3 · 2026"
+    },
+    {
+      "slug": "pizhu",
+      "repo": "pizhu",
+      "no": "05",
+      "lang": "typescript",
+      "stamp": "BEST USE OF SERPAPI",
+      "title": "pizhu",
+      "desc": "Margin notes, not rewrites: a writing tutor for Mandarin-speaking students, on open-weight Gemma 4.",
+      "tags": "dev build for a friend · 2026"
+    },
+    {
+      "slug": "archive",
+      "repo": null,
+      "no": "06",
+      "lang": "archive",
       "stamp": "OPEN",
-      "title": "wazuh-home-soc-lab",
-      "desc": "A reproducible home SOC: single-node Wazuh, a disposable target and three MITRE-mapped detections.",
-      "tags": "wazuh · elk · mitre att&ck"
+      "title": "All case files",
+      "desc": "The rest of the archive, including the NIS2 mapper, the home SOC lab and more security tooling.",
+      "tags": "everything i have shipped"
     }
   ],
   "posts": {
