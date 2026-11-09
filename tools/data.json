@@ -1,8 +1,8 @@
 {
-  "updated": "08 Nov 2026",
+  "updated": "09 Nov 2026",
   "year": 2026,
-  "repos": 51,
-  "contributions": 601,
+  "repos": 52,
+  "contributions": 605,
   "languages": [
     {
       "name": "TypeScript",
@@ -10,7 +10,7 @@
     },
     {
       "name": "JavaScript",
-      "count": 12
+      "count": 13
     },
     {
       "name": "Python",
@@ -26,7 +26,6 @@
     }
   ],
   "daily": [
-    6,
     13,
     0,
     45,
@@ -57,9 +56,16 @@
     2,
     1,
     16,
-    9
+    13,
+    0
   ],
   "posts": [
+    {
+      "source": "DEV",
+      "title": "The model said yes. The chain said no. An on-chain lock for AI agents with wallets",
+      "url": "https://dev.to/muhammadmurtuzahussain/the-model-said-yes-the-chain-said-no-an-on-chain-lock-for-ai-agents-with-wallets-2igp",
+      "date": "2026-11-08T16:46:54Z"
+    },
     {
       "source": "DEV",
       "title": "Not every ghost is here to scare you. Ward is the friendly one in your group chat",
@@ -77,12 +83,6 @@
       "title": "Job hunting became my side hustle, so I built Deis (Gemma 4) Tinder for jobs: swipe right, Gemma tailors your CV",
       "url": "https://dev.to/muhammadmurtuzahussain/job-hunting-became-my-side-hustle-so-i-built-deis-gemma-4-tinder-for-jobs-swipe-right-gemma-3jcm",
       "date": "2026-10-18T20:56:01Z"
-    },
-    {
-      "source": "DEV",
-      "title": "\"Is AI going to replace me?\" I built Droichead on Gemma 4 in one day, then pitched it with a flip chart",
-      "url": "https://dev.to/muhammadmurtuzahussain/is-ai-going-to-replace-me-i-built-droichead-on-gemma-4-in-one-day-then-pitched-it-with-a-flip-4k6p",
-      "date": "2026-10-12T08:18:38Z"
     }
   ]
 }
